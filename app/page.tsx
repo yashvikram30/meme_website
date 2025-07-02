@@ -1,7 +1,6 @@
 "use client"
 import React, { useState, useEffect, useRef } from 'react';
 import { Download, Type, FileImage } from 'lucide-react';
-import { createClient } from '@/utils/supabase/server';
 import { Timestamp } from 'next/dist/server/lib/cache-handlers/types';
 import { supabase } from '@/lib/supabase';
 
